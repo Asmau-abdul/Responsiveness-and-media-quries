@@ -90,19 +90,19 @@ form input {
     visibility: hidden;
 }
 
-.form:active input{
+.form:active input:invalid{
     border: 2px solid hsl(0, 100%, 74%);
     background: url('/icon-error.svg') no-repeat right center;
     float: right;
 }
 
-.form:active #submit{
+.form:active input:invalid #submit{
     border: none;
     background-color: hsl(154, 78%, 66%);
     background-image: none;
 }
 
-.form:active label{
+.form:active input:invalid label{
     visibility: visible;
 }
 
