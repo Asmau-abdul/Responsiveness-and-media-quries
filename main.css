@@ -92,7 +92,7 @@ form input {
 
 .form:active input{
     border: 2px solid hsl(0, 100%, 74%);
-    background: url("./icon-error.svg") no-repeat right center;
+    background: url('/icon-error.svg') no-repeat right center;
     float: right;
 }
 
